@@ -1,0 +1,11 @@
+# Men's Salon Website
+
+A simple salon website with:
+- Services list
+- Online booking form (connected to Google Sheets via Apps Script API)
+- WhatsApp button for quick chat
+
+## Deployment
+1. Push this repo to GitHub.
+2. Deploy via **Netlify** or **Vercel**.
+3. The booking form submits data to Google Sheets.

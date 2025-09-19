@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Men's Salon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Men's Salon</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#booking">Book Now</a>
+      <a href="https://wa.me/919876543210" target="_blank">WhatsApp</a>
+    </nav>
+  </header>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Haircut – ₹80</li>
+      <li>Beard Trim – ₹50</li>
+      <li>Hair Spa – ₹200</li>
+      <li>Facial – ₹150</li>
+    </ul>
+  </section>
+
+  <section id="booking">
+    <h2>Book Your Slot</h2>
+    <form id="bookingForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="service">Select Service:</label>
+      <select id="service" name="service" required>
+        <option value="Haircut">Haircut – ₹80</option>
+        <option value="Beard Trim">Beard Trim – ₹50</option>
+        <option value="Hair Spa">Hair Spa – ₹200</option>
+        <option value="Facial">Facial – ₹150</option>
+      </select>
+
+      <label for="date">Select Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Select Time:</label>
+      <input type="time" id="time" name="time" required>
+
+      <button type="submit">Book Now</button>
+    </form>
+    <p id="responseMessage"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Men's Salon. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
